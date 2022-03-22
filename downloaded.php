@@ -16,7 +16,7 @@
   </tr>
 
  <?php
-$cookie = "xxxxxxxxxxxxxx"; // alldebrid uid cookie
+$cookie = "be664a95809730a13794cc5d"; // alldebrid uid cookie
 
 function get_string_between($string, $start, $end)
   {
@@ -32,7 +32,7 @@ $url1 = 'http://www.alldebrid.com/api/torrent.php?json=true';
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url1);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-  "Cookie: uid=" . $cookie
+  "Cookie: uid=be664a95809730a13794cc5d" . $cookie
 ));
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HEADER, 0);
